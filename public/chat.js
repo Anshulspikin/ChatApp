@@ -1,4 +1,4 @@
-import { db, auth } from './firebase';  // Import Firestore and Auth
+import { db, auth } from '../firebase';  // Import Firestore and Auth
 import { collection, addDoc, getDocs } from 'firebase/firestore';
 
 // Reference to Firestore collection where chat messages are stored

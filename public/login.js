@@ -1,6 +1,6 @@
 // Import the necessary Firebase modules
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from './firebase';
+import { auth } from '../firebase';
 
 // Get the login form elements
 const loginButton = document.getElementById('loginButton');
